@@ -1,4 +1,4 @@
-package com.jtech.emojikeyboardlibrary;
+package com.jtech.emojikeyboard;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 /**
  * 表情列表适配器
- * Created by hasee on 2017/5/7.
+ * Created by wuxubaiyang on 2017/5/7.
  */
 class EmojiListAdapter extends BaseAdapter {
     private Context context;
@@ -64,7 +64,7 @@ class EmojiListAdapter extends BaseAdapter {
         /**
          * 设置表情
          *
-         * @param emoji
+         * @param emoji 表情
          */
         public void setEmoji(String emoji) {
             textView.setText(emoji);

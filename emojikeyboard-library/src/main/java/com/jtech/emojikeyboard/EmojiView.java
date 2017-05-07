@@ -1,4 +1,4 @@
-package com.jtech.emojikeyboardlibrary;
+package com.jtech.emojikeyboard;
 
 import android.content.Context;
 import android.support.design.widget.TabLayout;
@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * 表情键盘视图
- * Created by hasee on 2017/5/7.
+ * Created by wuxubaiyang on 2017/5/7.
  */
 
 public class EmojiView extends FrameLayout implements View.OnClickListener {
@@ -92,7 +92,7 @@ public class EmojiView extends FrameLayout implements View.OnClickListener {
     /**
      * 与输入框绑定
      *
-     * @param targetInput
+     * @param targetInput 目标输入框
      */
     public void setupWithEditText(TextView targetInput) {
         this.targetInput = targetInput;
@@ -101,7 +101,7 @@ public class EmojiView extends FrameLayout implements View.OnClickListener {
     /**
      * 获取表情页视图
      *
-     * @return
+     * @return 返回pager视图集合
      */
     private List<View> getPagerViews() {
         List<View> views = new ArrayList<>();
@@ -134,8 +134,8 @@ public class EmojiView extends FrameLayout implements View.OnClickListener {
     /**
      * 判断是否为表情
      *
-     * @param codePoint
-     * @return
+     * @param codePoint codepoint
+     * @return 判断是否为表情
      */
     private boolean isEmojiCharacter(char codePoint) {
         return !((codePoint == 0x0) ||

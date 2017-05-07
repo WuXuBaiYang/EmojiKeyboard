@@ -1,11 +1,11 @@
-package com.jtech.emojikeyboardlibrary;
+package com.jtech.emojikeyboard;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * 表情编码
- * Created by hasee on 2017/5/7.
+ * Created by wuxubaiyang on 2017/5/7.
  */
 
 class Emoji {

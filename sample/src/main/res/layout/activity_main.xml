@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.jtech.emojikeyboardlibrary.EmojiView
+    <com.jtech.emojikeyboard.EmojiView
         android:id="@+id/emojiView"
         android:layout_width="match_parent"
         android:layout_height="240dp"

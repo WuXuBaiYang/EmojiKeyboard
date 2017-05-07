@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 
-import com.jtech.emojikeyboardlibrary.EmojiView;
+import com.jtech.emojikeyboard.EmojiView;
 
 public class MainActivity extends AppCompatActivity {
     private EmojiView emojiView;

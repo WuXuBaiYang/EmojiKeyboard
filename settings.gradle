@@ -1,1 +1,1 @@
-include ':sample', ':emojikeyboardlibrary'
+include ':sample', ':emojikeyboard-library'

@@ -1,4 +1,4 @@
-package com.jtech.emojikeyboardlibrary;
+package com.jtech.emojikeyboard;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 表情pager适配器
- * Created by hasee on 2017/5/7.
+ * Created by wuxubaiyang on 2017/5/7.
  */
 
 class EmojiPagerAdapter extends PagerAdapter {
